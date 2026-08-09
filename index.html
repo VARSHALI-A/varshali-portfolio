@@ -1,0 +1,255 @@
+j<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Portfolio - Book</title>
+<link rel="preconnect" 
+  href="https://fonts .googleapis.com">
+<link href="https://fonts.googleapis .com/css?family=Playfair+Display: wght@600;700;800&family= Source+Sans+3:wght@400;600&display =swap" rel="stylesheet">
+  <link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+<link rel="stylesheet" href="style.css"/>
+  
+</head>
+<body>
+
+  <!-- ===== Top bar : menu + theme toggle ===== -->
+  <div class="top-bar">
+    <nav class="menu-bar" id="menuBar">
+      <button data-index="0">Home</button>
+      <button data-index="1">About</button>
+      <button data-index="2">Skills</button>
+      <button data-index="3">Projects</button>
+      <button data-index="4">Certificates</button>
+      <button data-index="5">Contact</button>
+    </nav>
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark or light theme">🌙</button>
+  </div>
+
+  <div class="scene">
+    <div class="book" id="book">
+      <div class="spine"></div>
+
+      <!-- PAGE 0 : HOME -->
+      <section class="page" data-index="0">
+        <div class="page-inner">
+        <div class="home-page">
+          <!-- 👇 Replace "photo.jpg" with your own image file/link. If it fails to load, initials show automatically -->
+          <div class="photo-sticker">
+            <img src="profile1.jpg" alt="Your photo"
+                 onerror="this.parentElement.outerHTML='<div class=&quot;monogram&quot;>YN</div>'">
+          </div>
+          <h1>VARSHALI A</h1>
+          <div class="role">Final Year Bsc Computer Science With Data Analytics</div>
+          <p>Welcome to my digital portfolio. Turn the pages to explore my journey,skills,certificates and creative work.</p>
+          <!-- 👇 Replace the # links below with your real GitHub and LinkedIn URLs -->
+    
+          <div class="social-links">
+            <a href="https://github.com/VARSHALI-A" target="_blank" rel="noopener" aria-label="GitHub">
+              <svg viewBox="0 0 24 24"><path d="M12 .3a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2.2c-3.3.7-4-1.6-4-1.6-.6-1.4-1.4-1.8-1.4-1.8-1.1-.8.1-.8.1-.8 1.2.1 1.9 1.3 1.9 1.3 1.1 1.9 2.9 1.3 3.6 1 .1-.8.4-1.3.8-1.6-2.7-.3-5.5-1.3-5.5-6a4.6 4.6 0 0 1 1.2-3.2 4.3 4.3 0 0 1 .1-3.2s1-.3 3.3 1.2a11.5 11.5 0 0 1 6 0c2.3-1.5 3.3-1.2 3.3-1.2a4.3 4.3 0 0 1 .1 3.2 4.6 4.6 0 0 1 1.2 3.2c0 4.7-2.8 5.7-5.5 6 .4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A12 12 0 0 0 12 .3"/></svg>
+            </a>
+            <a href="https://linkedin.com/in/A-VARSHALI" target="_blank" rel="noopener" aria-label="LinkedIn">
+              <svg viewBox="0 0 24 24"><path d="M20.5 2h-17A1.5 1.5 0 0 0 2 3.5v17A1.5 1.5 0 0 0 3.5 22h17a1.5 1.5 0 0 0 1.5-1.5v-17A1.5 1.5 0 0 0 20.5 2M8 19H5V9h3zM6.5 7.7A1.7 1.7 0 1 1 8.2 6a1.7 1.7 0 0 1-1.7 1.7M19 19h-3v-4.8c0-1.1 0-2.6-1.6-2.6s-1.9 1.3-1.9 2.5V19h-3V9h2.9v1.3a3.1 3.1 0 0 1 2.8-1.5c3 0 3.6 2 3.6 4.5z"/></svg>
+            </a>
+          </div>
+        </div>
+        </div>
+        <button class="nav-arrow next" aria-label="Next page">›</button>
+      </section>
+
+      <!-- PAGE 1 : ABOUT -->
+      <section class="page" data-index="1">
+        <div class="page-inner">
+        <div class="eyebrow">About Me</div>
+        <h2>A Glimpse Of Me</h2>
+        <p>Hi, I'm Varshali A ,a passionate and dedicated Computer Science student with a strong interest in technology and continuous learning.I enjoy solving problems,exploring new ideas and building meaningful projects that improve my knowledge and practical skills.</p>
+        <hr>
+        <p><strong>📍 Location:</strong> Tamil Nadu, India</p>
+          <p><strong>🌐 Languages:</strong> English, Tamil</p>
+          <p class="quote">
+ "Dream. Learn. Build. Repeat."
+</p>
+        </div>
+        <button class="nav-arrow prev" aria-label="Previous page">‹</button>
+        <button class="nav-arrow next" aria-label="Next page">›</button>
+      </section>
+
+      <!-- PAGE 2 : SKILLS -->
+      <section class="page" data-index="2">
+        <div class="page-inner">
+        <div class="eyebrow">What I Do</div>
+        <h2>Skills & Technologies</h2>
+        <section class="skills-section">
+    <div class="skill-card">
+        <h3><i class="fa-solid fa-code"></i> Programming</h3>
+        <div class="tags">
+          <span>Python</span>                   
+            <span>C</span>
+            <span>C++</span>
+            <span>Java</span>
+            <span>HTML5</span>
+            <span>CSS3</span>
+            <span>JavaScript</span>
+        </div>
+    </div>
+
+          
+    <div class="skill-card">
+        <h3><i class ="fa-solid fa-chart-column"></i> Data & Analytics</h3>
+        <div class="tags">
+            <span>Power BI</span>
+            <span>Excel</span>
+            <span>Tableau</span>
+        </div>
+    </div>
+
+    <div class="skill-card">
+        <h3><i class="fa-solid fa-screwdriver-wrench"></i> Tools</h3>
+        <div class="tags">
+            <span>Git</span>
+            <span>GitHub</span>
+            <span>VS Code</span>
+        </div>
+    </div>
+<div class="skill-card">
+    <h3><i class="fa-solid fa-robot"></i> AI Tools</h3>
+
+    <div class="tags">
+        <span>ChatGPT</span>
+        <span>Claude</span>
+        <span>Gemini</span>
+    </div>
+</div>
+    <div class="skill-card">
+        <h3><i class="fa-solid fa-people-group"></i> Soft Skills</h3>
+        <div class="tags">
+            <span>Communication</span>
+            <span>Leadership</span>
+            <span>Teamwork</span>
+            <span>Problem Solving</span>
+            <span>Time Management</span>
+        </div>
+    </div>
+
+</section>
+        </div>
+        <button class="nav-arrow prev" aria-label="Previous page">‹</button>
+        <button class="nav-arrow next" aria-label="Next page">›</button>
+      </section>
+
+      <!-- PAGE 3 : PROJECTS -->
+      <section class="page" data-index="3">
+        <div class="page-inner">
+        <div class="eyebrow">Selected Work</div>
+        <h2>Projects</h2>
+        <!-- 👇 Replace href="#" with your real GitHub repo link for each project -->
+        <div class="project-card">
+         
+          <img src="qrcode.jpg" alt="QR Code Generator" class="project-img" onclick="openProject(this.src)">
+          
+          <div class="preview-overlay">
+    <i class="fa-solid fa-magnifying-glass-plus"></i> Tap to Preview
+</div>
+          <h3><i class="fa-solid fa-laptop-code"></i> URL--TO--QR Code converter</h3>
+          <p>A Python-based application that converts URLs into QR codes instantly. Developed with AI-assisted coding support to improve development speed, debugging, and code quality.</p>
+          <div class="tags">Python • QR Code • AI-Assisted Development</div>
+          <a class="repo-link" href="https://github.com/VARSHALI-A/url---to---qr---converter" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i>View on GitHub →</a>
+         
+          <br><br>
+
+<a class="demo-link"
+   href="https://varshali-a.github.io/url---to---qr---converter/"
+   target="_blank" rel="noopener">
+   <i class="fa-solid fa-up-right-from-square"></i> Live Demo 
+</a>
+        </div>
+        <div class="project-card">
+         
+          <span class="featured-badge">Featured</span>
+          <img src="shoppage.jpg" alt="SAMPLE SHOPPING PAGE" class="project-img" onclick="openProject(this.src)">
+           
+          <div class="preview-overlay">
+    <i class="fa-solid fa-magnifying-glass-plus"></i> Tap to Preview
+</div>
+           <h3><i class="fa-solid fa-cart-shopping"></i> Sample Shoping Website</h3>
+          <p>Created during my learning journey to practice HTML and CSS. This sample shopping website demonstrates a clean layout, product display, and basic web design skills.</p>
+          <div class="tags">HTML • CSS </div>
+          <a class="repo-link" href="https://github.com/VARSHALI-A/sample-shoppage" target="_blank" rel="noopener">View on GitHub →</a>
+        
+          <br><br>
+
+<a class="demo-link"
+   href="https://varshali-a.github.io/sample-shoppage/"
+   target="_blank" rel="noopener">
+   <i class="fa-solid fa-up-right-from-square"></i> Live Demo 
+</a>
+        </div>
+        
+       
+        <button class="nav-arrow prev" aria-label="Previous page">‹</button>
+        <button class="nav-arrow next" aria-label="Next page">›</button>
+          <div id="imgPopup" class="img-popup" onclick="closeProject()">
+    <img id="popupImg">
+</div>
+      </section>
+
+      <!-- PAGE 4 : CERTIFICATES -->
+      <section class="page" data-index="4">
+        <div class="page-inner">
+        <div class="eyebrow">Recognition</div>
+        <h2>Certificates</h2>
+        <!-- Thumbnails are generated automatically from the CERTIFICATES list in the script below -->
+        <div class="cert-grid" id="certGrid"></div>
+        </div>
+        <button class="nav-arrow prev" aria-label="Previous page">‹</button>
+        <button class="nav-arrow next" aria-label="Next page">›</button>
+      </section>
+
+      <!-- PAGE 5 : CONTACT -->
+      <section class="page" data-index="5">
+        <div class="page-inner">
+        <div class="eyebrow">Get In Touch</div>
+        <h2>Contact</h2>
+          <div class="photo-sticker">
+            <img src="profile2.jpg" alt="Your photo"
+                 onerror="this.parentElement.outerHTML='<div class=&quot;monogram&quot;>YN</div>'">
+          </div>
+        <div class="contact-line"><span class="lab"><i class="fas fa-envelope"></i>Email</span><span>varshalicsda@gmail.com</span></div>
+        <div class="contact-line"><span class="lab"><i class="fas fa-phone"></i>Phone</span><span>+91 9842663498</span></div>
+           <button class="resume-btn" onclick="document.getElementById('resumePreview').style.display='flex'">
+    <i class="fas fa-eye"></i>
+    Show Resume
+</button>
+
+<div id="resumePreview" class="resume-preview">
+    <div class="resume-box">
+        <button class="resume-close"
+                onclick="document.getElementById('resumePreview').style.display='none'">
+            ×
+        </button>
+
+        <img src="./VARSHALI_A_RESUME.jpg" alt="Varshali Resume">
+    </div>
+</div>
+        <p>Thank you for visiting my portfolio!</p>
+        </div>
+        <button class="nav-arrow prev" aria-label="Previous page">‹</button>
+      </section>
+
+    </div>
+    <div class="page-indicator" id="pageIndicator">1 / 6</div>
+  </div>
+
+  <!-- Lightbox for enlarged certificate view -->
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox-close" id="lightboxClose" aria-label="Close">✕</button>
+    <div class="lightbox-box">
+      <img id="lightboxImg" src="" alt="">
+      <div class="lightbox-cap" id="lightboxCap"></div>
+    </div>
+  </div>
+    <script src="https://kit.fontawesome.com/85d0cb2557.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
