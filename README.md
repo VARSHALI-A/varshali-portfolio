@@ -26,7 +26,7 @@ I am Varshali A, a BSc Computer Science with Data Analytics student interested i
 - Visual Studio Code
 - Git & GitHub
 
-##Live Demo
+## Live Demo
 
 - https://varshali-a.github.io/varshali-portfolio/
 
